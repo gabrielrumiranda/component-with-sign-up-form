@@ -1,0 +1,90 @@
+.signup-container {
+  width: 100%;
+  max-width: 1440px;
+  height: 100vh;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup-container section.apresentation {
+  color: #fff;
+  margin: 80px;
+}
+
+.signup-container section.apresentation h1{
+  font-size: 65px;
+  line-height: 1.2em;
+  margin-bottom: 20px;
+}
+
+.signup-container section.apresentation h2{
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.signup-container section.signup {
+  max-width: 650px;
+  width: 100%;
+}
+.signup-container section.form {
+  background-color: #fff;
+  width: 100%;
+  max-width: 650px;
+  border: 1px solid hsl(246, 25%, 77%);
+  border-radius: 8px;
+  box-shadow: 0 6px rgba(68, 68, 68, 0.2) ;
+}
+
+.signup-container section.form form{
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.signup-container section.signup .announcement{
+  background-color:  hsl(248, 32%, 49%);
+  color: #fff;
+  border: 0;
+  border-radius: 8px;
+  width: 100%;
+  height: 65px;
+  margin-bottom: 40px;
+  box-shadow: 0 6px rgba(68, 68, 68, 0.2) ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signup-container section.signup .announcement p{
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.signup-container section.form form input{
+  width: 100%;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.signup-container section.form form input:first-child{
+  margin-top: 20px;
+}
+
+.signup-container section.form form button{
+  width: 100%;
+  margin-bottom: 20px;
+}
+.signup-container section.form form p{
+  text-align: center;
+  font-size: 13px;
+  color: hsl(246, 25%, 77%);
+  padding-bottom: 20px;
+}
+
+.signup-container section.form form a{
+  text-decoration: none;
+  color: hsl(0, 100%, 74%);
+  font-weight: 700;
+}

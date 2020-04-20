@@ -34,6 +34,11 @@ form input {
   padding: 0 40px;
 }
 
+.error-input {
+  color: hsl(0, 100%, 74%);
+  border: 2px solid hsl(0, 100%, 74%);
+  border-radius: 6px;
+}
 form input:focus {
   border: 1px solid hsl(248, 32%, 49%);
   border-radius: 6px;

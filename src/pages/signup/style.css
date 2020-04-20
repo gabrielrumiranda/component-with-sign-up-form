@@ -65,7 +65,6 @@
 .signup-container section.form form input{
   width: 100%;
   font-weight: 600;
-  margin-bottom: 25px;
 }
 
 .signup-container section.form form input:first-child{
@@ -76,7 +75,7 @@
   width: 100%;
   margin-bottom: 20px;
 }
-.signup-container section.form form p{
+.signup-container section.form form .term-service{
   text-align: center;
   font-size: 13px;
   color: hsl(246, 25%, 77%);
@@ -87,4 +86,26 @@
   text-decoration: none;
   color: hsl(0, 100%, 74%);
   font-weight: 700;
+}
+
+.signup-container section.form img{
+  position: absolute;
+  right: 30px;
+  top: 40px;
+}
+
+.signup-container section.form form .error-message{
+  font-style: italic;
+  padding-top: 10px;
+  text-align: right;
+  font-size: 12px;
+  color: hsl(0, 100%, 74%);
+  font-weight: 500;
+}
+
+.inputContainer { 
+  position:relative;
+  padding:0;
+  margin:0;
+  margin-bottom: 15px;
 }

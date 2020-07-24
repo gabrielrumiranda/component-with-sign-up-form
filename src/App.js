@@ -1,5 +1,6 @@
 import React from 'react';
-import Signup from './pages/signup';
+import Signup from './components/Signup'
+
 import './global.css';
 
 function App() {

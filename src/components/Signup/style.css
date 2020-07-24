@@ -1,9 +1,8 @@
 .signup-container {
   width: 100%;
-  max-width: 1440px;
   height: 100vh;
   margin: 0 auto;
-
+  max-width: 1440px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -108,4 +107,40 @@
   padding:0;
   margin:0;
   margin-bottom: 15px;
+}
+
+@media only screen and (max-width:1200px) { 
+  .signup-container {
+    max-width: 375px;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+  }
+
+  .signup-container section.apresentation{
+    width: 100%;
+  }
+
+  .signup-container section.apresentation h1{
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .signup-container section.apresentation h2{
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .signup-container section.form{
+    margin-bottom: 40px;
+  }
+
+  .signup-container section.signup .announcement p{
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .signup-container section.signup .announcement{
+    height: 120px;
+  }
 }
